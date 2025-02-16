@@ -26,32 +26,37 @@ Provides utility-first CSS classes for rapid styling and responsive design.
 
 1. Clone the repository:
 
-`git clone https://github.com/yourusername/MERN-Todo-App.git
+```
+git clone https://github.com/yourusername/MERN-Todo-App.git
 cd MERN-Todo-App
-`
+```
 
 2. Set up the Backend:
 
-`cd backend
+```
+cd backend
 npm install
-`
+```
 
 * Ensure your MongoDB instance is running.
 * Start the backend server:
 
-`npm run dev
-`
+```
+npm run dev
+```
 
 3. Set up the Frontend:
 
-`cd frontend
+```
+cd frontend
 npm install
-`
+```
 
 * Start the frontend development server:
 
-`npm run dev
-`
+```
+npm run dev
+```
 
 The frontend app will be available at http://localhost:5173.
 
