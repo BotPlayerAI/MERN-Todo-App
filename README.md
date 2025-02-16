@@ -30,7 +30,7 @@ Provides utility-first CSS classes for rapid styling and responsive design.
 cd MERN-Todo-App
 `
 
-3. Set up the Backend:
+2. Set up the Backend:
 
 `cd backend
 npm install
