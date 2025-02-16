@@ -44,7 +44,7 @@ npm install
 
 3. Set up the Frontend:
 
-`cd ../frontend
+`cd frontend
 npm install
 `
 
