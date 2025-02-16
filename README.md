@@ -2,6 +2,9 @@
 
 A full-stack Todo application built with the MERN stack and styled with Tailwind CSS. This project serves as a robust template for building modern web applications with a clear separation between the backend (Node.js, Express, MongoDB) and the frontend (React with Vite).
 
+![image](https://github.com/user-attachments/assets/04ef6e88-a064-4490-88f1-2a5ceb8c2a12)
+![image](https://github.com/user-attachments/assets/49db1b91-2bca-4a38-9136-0eb4c77b988d)
+
 # Features
 
 * RESTful API:
