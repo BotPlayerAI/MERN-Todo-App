@@ -1,4 +1,3 @@
-// frontend/src/App.jsx
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -6,7 +5,6 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [title, setTitle] = useState("");
 
-  // Fetch todos from backend
   const fetchTodos = async () => {
     try {
       const res = await axios.get("http://localhost:5000/api/todos");
@@ -20,7 +18,6 @@ function App() {
     fetchTodos();
   }, []);
 
-  // Add a new todo
   const handleAddTodo = async (e) => {
     e.preventDefault();
     if (!title) return;
@@ -35,7 +32,6 @@ function App() {
     }
   };
 
-  // Delete a todo
   const handleDelete = async (id) => {
     try {
       await axios.delete(`http://localhost:5000/api/todos/${id}`);
